@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "smoke: fast critical checks",
+    "api: API-level tests",
+    "ui: UI-level tests",
+]
+addopts = "-q"
